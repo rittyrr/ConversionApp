@@ -1,5 +1,3 @@
-import json
-
 def response_model(source_currency, target_currency, amount, target_amount):
     resp = {'Source Currency': source_currency, 'Target Currency': target_currency,
             'Amount': amount, 'Target Amount': target_amount}

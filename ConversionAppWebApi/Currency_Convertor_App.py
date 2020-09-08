@@ -1,12 +1,12 @@
-from flask import Flask, jsonify, request, make_response
+from flask import Blueprint, Flask, jsonify, request, make_response
 from WebApiHelper.CurrencyConversion import currency_conversion
 from Constants.WebApiConstants import currency_rates
 from ResponseBuilder.WebApiResponse import err_resp_model
 
-app = Flask(__name__)
+currency_conversion_blueprint = Blueprint('currency_conversion_blueprint', __name__)
+"""Blueprint arg1 - blueprint' name, arg2 - __name__ to locate blueprint resources"""
 
-
-@app.route('/CurrencyConverter', methods=['POST'])
+@currency_conversion_blueprint.route('/CurrencyConverter_api', methods=['POST'])
 def currency_converter():
     if request.method == 'GET':
         return make_response('failure')
@@ -21,7 +21,4 @@ def currency_converter():
             client_response = currency_conversion(source_currency, target_currency, amount)
             return jsonify(client_response)
 
-
-if __name__ == '__main__':
-    app.run(debug=True, use_debugger=False, use_reloader=False, passthrough_errors=True)
 

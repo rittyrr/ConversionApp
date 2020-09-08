@@ -1,5 +1,3 @@
-"""Base URL for Fixer.io"""
-base_url = 'http://data.fixer.io/api/latest?access_key=3b50c682acba60d8e817e6a6ae108c6f&format=1'
 currency_rates = ['AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM',
                   'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTC',
                   'BTN', 'BWP', 'BYN', 'BYR', 'BZD', 'CAD', 'CDF', 'CHF', 'CLF', 'CLP', 'CNY',

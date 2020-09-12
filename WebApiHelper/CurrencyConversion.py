@@ -1,10 +1,9 @@
-import requests as re
+from APIGeneralizer.APIHelper import *
 from Constants.url_constants import fixer_api_url
 from ResponseBuilder.WebApiResponse import response_model
 
 def currency_conversion(source_currency, target_currency, amount):
-    resp = re.get(fixer_api_url)
-    response_content = resp.json()
+    response_content = resp(fixer_api_url)
     currency_rate = response_content['rates']
     base_currency_value = currency_rate['EUR']
     source_currency_rate = currency_rate[source_currency]

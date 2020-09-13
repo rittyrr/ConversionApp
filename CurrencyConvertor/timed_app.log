@@ -1,15 +1,1 @@
-2020-09-13 14:34:57,749 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
-2020-09-13 14:35:22,599 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
-2020-09-13 14:35:27,825 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency
-2020-09-13 14:35:39,120 - CurrencyConversionApp - ERROR - ERROR: Invalid Target Currency
-2020-09-13 14:35:49,159 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
-2020-09-13 14:44:21,471 - CurrencyConversionApp - ERROR - ERROR : Invalid Target Currency Code
-2020-09-13 14:44:36,484 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency Code
-2020-09-13 14:44:55,190 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency Code
-2020-09-13 14:44:59,973 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency Code
-2020-09-13 14:45:10,204 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
-2020-09-13 14:45:20,326 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
-2020-09-13 14:45:25,225 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency Code
-2020-09-13 14:45:32,044 - CurrencyConversionApp - ERROR - ERROR: Invalid Source Currency Code
-2020-09-13 14:45:38,706 - CurrencyConversionApp - ERROR - ERROR : Invalid Target Currency Code
-2020-09-13 14:45:48,205 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully
+2020-09-13 14:50:23,183 - CurrencyConversionApp - INFO - SUCCESS: Currency Converted Successfully

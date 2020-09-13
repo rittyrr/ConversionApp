@@ -29,7 +29,7 @@ def currency_converter():
                 logger.info('SUCCESS: Currency Converted Successfully')
                 return jsonify(client_response)
     except Exception as e:
-        logger.error('ERROR: ' + e)
+        logger.error('ERROR: ' + str(e))
 
 
 currency_conversion_blueprint.before_request(before_request)

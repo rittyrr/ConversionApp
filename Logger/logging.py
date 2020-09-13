@@ -9,7 +9,7 @@ logger.setLevel(logging.DEBUG)
 """Here we define our formatter"""
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-logHandler = handlers.TimedRotatingFileHandler('timed_app.log', when='M', interval=1, backupCount=2)
+logHandler = handlers.TimedRotatingFileHandler('currency_conversion.log', when='M', interval=1, backupCount=2)
 logHandler.setLevel(logging.INFO)
 logHandler.setLevel(logging.ERROR)
 logHandler.setLevel(logging.DEBUG)
